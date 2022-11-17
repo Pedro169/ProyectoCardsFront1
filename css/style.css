@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h6{
+    background-color: orange;
+    margin: 0;
+    padding: 5px;
+}
+
+h1{
+    background-color: #00669F;
+    padding: 10px; 
+    margin: 0;   
+}
+
+.h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.imgLogo {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+.fondoLogo1{
+    position: absolute;
+    background-image: url('../img/fondoHarly.png');
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    z-index: -1;
+  
+}
+.corazon{
+    color: red;
+    padding: 10px;
+    font-size: 30px;
+}
+.parrafo{
+    margin-top: 10px;
+    padding: 20px;
+}
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card1{
+    background-image: url('../img/fondoBatman.png');
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+    margin: 100px;
+    border-radius: 15px;
+    border-color: 1px black;
+    padding: 30px;
+    }
+
+.conteiner{
+    background-color: rgb(236, 233, 233);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 600px;
+    margin: 100px;
+    border-radius: 15px;
+    border-color: 1px black;
+    z-index: -1;
+}
+.card2{
+    border-radius: 15px;
+    border-color: 3px black;
+
+    }
+
+.button {
+    margin-top: 20px;
+    margin-left: 90px;
+    padding: 10px  50px;
+    left: 90px;
+    font-family: 'Roboto';
+    font-style: normal;
+    background: #00669F;
+    color: white;
+    border:none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;            
+    }
+    
+.button:hover {
+    background: aliceblue;
+    color: black;
+}
+footer{
+    position: relative;
+    top: 800px;
+    padding: 0px;   
+    color: white;
+    background: #00669F;  
+    text-align: center;    
+                 
+    }
+.vector{
+    padding: 10px;
+}
+    
+@media(max-width:600px){
+        .section{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+        }
+     
+        h6{ 
+            display: flex;
+            background-color: #1CD1B0;
+            margin: 0;
+            padding: 5px;
+            width: 100%;
+        }
+        
+        h1{
+            display: flex;
+            background-color: #00669F;
+            padding: 10px; 
+            margin: 0;   
+        }
+        
+    }
